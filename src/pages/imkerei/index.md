@@ -1,13 +1,13 @@
 ---
 templateKey: imkerei-page
-thumbnail: /img/clay-image-1.jpg
+thumbnail: /img/logo-large.jpg
 date: 2023-03-02T10:17:05.133Z
 title: Imkerei
-description: A stunning Gatsby theme designed for captivating image-centric websites, perfect for photographers, portfolios, and more.
+description: Unsere kleine Privatimkerei liegt in Dudweiler und setzt auf naturnahe Bienenhaltung mit wenigen Völkern. Wir produzieren Blüten- und Presshonig nach alter Handwerkstradition – unverfälscht, regional und mit viel Sorgfalt. Unsere sanftmütigen Carnica-Bienen leben in hochwertigen Zander-Beuten von Frankenbeute und schenken uns einen Honig, der die Vielfalt der Dudweiler Natur in sich trägt.
 number: 1
 pagetype:
   - main
-featuredimage: /img/clay-image-1.jpg
+featuredimage: /img/logo-large.jpg
 ---
 
 Mitten in Dudweiler betreiben wir eine kleine, traditionsverbundene Privatimkerei – fernab industrieller Methoden und mit tiefem Respekt für das Leben der Bienen. Mit nur wenigen Völkern und viel persönlichem Einsatz entstehen bei uns Honige, die die Landschaft und Jahreszeit widerspiegeln: naturbelassene Blütenhonige und selten gewordener Presshonig, wie er früher üblich war – unverfälscht, ursprünglich und voller Charakter.
