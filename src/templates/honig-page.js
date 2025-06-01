@@ -72,7 +72,7 @@ query IndexPage {
     
   }
   allMarkdownRemark(
-    filter: {frontmatter: {templateKey: {eq: "work-sub-page"}}}
+    filter: {frontmatter: {templateKey: {eq: "honig-sub-page"}}}
     limit: 30
     sort: {frontmatter: {date: DESC}}
   ) {
