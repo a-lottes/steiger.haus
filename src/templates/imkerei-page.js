@@ -14,7 +14,7 @@ const ImkereiPage = (props) => {
 
     return (
         <Layout location={props.location} title={site.siteMetadata.title } social={site.siteMetadata.social}>
-        <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
+        <Seo keywords={[`Imkerei`, `Imkerei Saarland`, `Saarbrücken`, `Dudweiler`]}
           title={post.frontmatter.title}
           description={post.frontmatter.description || ''}
           image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src}

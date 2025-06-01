@@ -58,19 +58,13 @@ const Layout = (props) => {
                 className={`nav-home  ${data.pathname.includes("/contact") ? "nav-current" : ""} `}
                 role="menuitem"
               >
-                <Link to={`/contact`}>Contact</Link>
-              </li>
-              <li
-                className={`nav-home  ${data.pathname.includes("/elements") ? "nav-current" : ""} `}
-                role="menuitem"
-              >
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/contact`}>Kontakt</Link>
               </li>
             </ul>
           </nav>
           <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
-              {title}
+              <img src="/img/logo1.png"></img>
             </Link>
           </div>
           <div className="site-head-right">
@@ -83,6 +77,8 @@ const Layout = (props) => {
         </div>
       </main>
       <footer className="site-foot">
+        <Link to={`/contact`}>Kontakt</Link>
+        <hr></hr>
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
         Built by {""}
         <a
