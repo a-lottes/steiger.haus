@@ -12,8 +12,8 @@ const BlogPostTemplate = (props) => {
     `/${pageContext.next.fields.slug.split('/').slice(2, -1).join('/')}` : '/';
   const previousSlug = pageContext.previous ? pageContext?.previous?.fields?.slug?.split('/').slice(2, -1).join('/') === '' ? '/' :
     `/${pageContext.previous.fields.slug.split('/').slice(2, -1).join('/')}` : "/"
-  const nextLinkStatus = pageContext?.next ? pageContext?.next?.frontmatter?.templateKey === 'work-sub-page' ? true : false : false
-  const previousLinkStatus = pageContext?.previous ? pageContext?.previous?.frontmatter?.templateKey === 'work-sub-page' ? true : false : false
+  const nextLinkStatus = pageContext?.next ? pageContext?.next?.frontmatter?.templateKey === 'honig-sub-page' ? true : false : false
+  const previousLinkStatus = pageContext?.previous ? pageContext?.previous?.frontmatter?.templateKey === 'honig-sub-page' ? true : false : false
 
   const post = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
