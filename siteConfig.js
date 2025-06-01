@@ -1,10 +1,10 @@
 const siteConfig = {
-  name: 'Clay',
-  shortName: 'Clay',
-  description: 'Clay - Personal Gatsby Theme',
+  name: 'Steigerhaus Imkerei',
+  shortName: 'Steiger.Haus',
+  description: 'Steigerhaus Imkerei Dudweiler',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Travis Lord & Abdul Waqar',
+  author: 'Andreas Lottes ',
   twitter: '' ,
   facebook:'',
   github:'',

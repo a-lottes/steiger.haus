@@ -74,33 +74,6 @@ const Layout = (props) => {
             </Link>
           </div>
           <div className="site-head-right">
-            <div className="social-links">
-              <Link
-                to={`https://facebook.com/${social.facebook}`}
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </Link>
-              <Link
-                to={`https://instagram.com/${social.twitter}`}
-                title="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </Link>
-
-              <Link
-                to={`https://github.com/lilxyzz/gatsby-clay`}
-                title="Github"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </Link>
-            </div>
           </div>
         </div>
       </header>
@@ -113,19 +86,11 @@ const Layout = (props) => {
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
         Built by {""}
         <a
-          href="https://travislord.xyz/"
+          href="https://lottes.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Travis Lord
-        </a>
-        {""} & {""}
-        <a
-          href="https://github.com/abdulwaqar844"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Abdul Waqar
+          Andreas Lottes
         </a>
       </footer>
     </div>
