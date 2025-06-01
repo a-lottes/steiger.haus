@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 import PostCard from "../components/postCard"
 
 // eslint-disable-next-line
-const WorkPage = ({ data }) => {
+const HonigPage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
   const social = data.site.siteMetadata.social
   const posts = data.allMarkdownRemark.edges
@@ -44,8 +44,8 @@ const WorkPage = ({ data }) => {
     </Layout>
   )
 }
-export default WorkPage
-export const WorkPageQuery = graphql`
+export default HonigPage
+export const HonigPageQuery = graphql`
 query IndexPage {
   site {
     siteMetadata {
@@ -57,7 +57,7 @@ query IndexPage {
       }
     }
   }
-  markdownRemark(frontmatter: {templateKey: {eq: "work-page"}}) {
+  markdownRemark(frontmatter: {templateKey: {eq: "honig-page"}}) {
     frontmatter {
       title
       description

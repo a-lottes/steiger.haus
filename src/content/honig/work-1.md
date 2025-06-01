@@ -1,5 +1,5 @@
 ---
-templateKey: work-sub-page
+templateKey: honig-sub-page
 thumbnail: /img/clay-images-10.jpg
 date: 2023-03-16T04:59:59.653Z
 title: Work 1
