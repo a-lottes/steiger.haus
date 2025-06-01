@@ -1,6 +1,6 @@
 ---
 templateKey: honig-sub-page
-thumbnail: /img/Honig-Etikett-Bluetenhonig.png
+thumbnail: 
 date: 2023-03-16T04:59:59.653Z
 title: Blütenhonig 
 description: "100 % naturreiner Blütenhonig aus Dudweiler mit Noten von Kastanie, Obstblüten und Sommerwald."

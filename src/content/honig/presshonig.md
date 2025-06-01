@@ -1,6 +1,6 @@
 ---
 templateKey: honig-sub-page
-thumbnail: /img/Honig-Etikett-Presshonig.png
+thumbnail: 
 date: 2023-03-06T05:10:14.676Z
 title: Presshonig
 description: "Schonend gepresster Honig aus Dudweiler – intensiv im Geschmack, naturbelassen in seiner Struktur."

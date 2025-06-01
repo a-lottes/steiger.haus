@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 // eslint-disable-next-line
 
 
-const BioPage = (props) => {
+const ImkereiPage = (props) => {
 
 
     const { markdownRemark: post, site } = props.data;
@@ -48,14 +48,14 @@ const BioPage = (props) => {
     );
 };
 
-BioPage.propTypes = {
+ImkereiPage.propTypes = {
     data: PropTypes.object.isRequired,
 };
 
-export default BioPage;
+export default ImkereiPage;
 
-export const BioPageQuery = graphql`
-  query BioPage {
+export const ImkereiPageQuery = graphql`
+  query ImkereiPage {
     site {
         siteMetadata {
           title
@@ -65,7 +65,7 @@ export const BioPageQuery = graphql`
           }
         }
       }
-    markdownRemark(frontmatter: {templateKey: {eq: "bio-page"}}) {
+    markdownRemark(frontmatter: {templateKey: {eq: "imkerei-page"}}) {
         frontmatter {
           title
           description

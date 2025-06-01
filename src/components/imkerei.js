@@ -9,10 +9,10 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image";
 
-function Bio() {
+function Imkerei() {
   return (
     <StaticQuery
-      query={bioQuery}
+      query={imkereiQuery}
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
@@ -24,12 +24,7 @@ function Bio() {
                 borderRadius: `50%`,
               }} />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://instgram.com/${social.instgram}`}>
-                You should follow him on Instgram
-              </a>
+            
             </p>
           </section>
         );
@@ -38,7 +33,7 @@ function Bio() {
   );
 }
 
-const bioQuery = graphql`query BioQuery {
+const imkereiQuery = graphql`query ImkereiQuery {
   avatar: file(absolutePath: {regex: "/profile-pic.jpg/"}) {
     childImageSharp {
       gatsbyImageData(width: 50, height: 50, layout: FIXED)
@@ -54,4 +49,4 @@ const bioQuery = graphql`query BioQuery {
   }
 }`
 
-export default Bio
+export default Imkerei
