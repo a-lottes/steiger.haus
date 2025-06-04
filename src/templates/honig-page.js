@@ -21,7 +21,6 @@ const HonigPage = ({ data }) => {
 
       />
 
-      {data.site.siteMetadata.description && (
         <section id="headerContent">
           <div id="topBackground">
             <div className="topMain">
@@ -44,7 +43,6 @@ const HonigPage = ({ data }) => {
             </div>
           </div>
         </section>
-      )}
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++
