@@ -24,7 +24,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: var(--color-bg);
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
@@ -124,7 +124,7 @@ body {
 }
 
 .site-foot {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 3vw 0 1vw;
   text-align: center;
   color: color(var(--color-border) l(-20%));
@@ -203,7 +203,7 @@ footer.site-foot a {
 
 .site-head-logo {
   /*font-family: 'Libre Barcode 39', cursive;*/
-  font-family: 'Muli',sans-serif;
+  font-family: 'Montserrat',sans-serif;
   flex-shrink: 0;
   display: block;
   padding: 10px;

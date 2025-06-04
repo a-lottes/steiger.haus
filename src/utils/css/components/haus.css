@@ -46,7 +46,7 @@
   position: relative;
 }
 
-.headings {
+.main-headings {
   position: absolute;
   top: 10%;
   height: 100px;
@@ -54,20 +54,20 @@
   color: #fff;
 }
 
-.headings h2, .headings h1 {font-weight: 900;margin:0;text-transform: uppercase;}
-.headings h2 {
+.main-headings h2, .main-headings h1 {font-weight: 900;margin:0;text-transform: uppercase;}
+.main-headings h2 {
   margin:0;
   font-size: 2.3em;
   
 }
 
-.headings h1 {
+.main-headings h1 {
   font-size: 6em;
   position:relative;
   bottom:15px;
 }
 
-.headings p {
+.main-headings p {
   font-size:0.8em;
   font-weight: 300;
   position:relative;
@@ -178,14 +178,14 @@
   #featured {top: 80px;}
   #featured h3 {font-size:1.6em;} 
   
-  .headings {
+  .main-headings {
     position: static;
     height: 50px;
     width: 500px;
     margin: 0 auto;
     color: #fff;
   }
-  .headings p {font-size: 1em;}
+  .main-headings p {font-size: 1em;}
   
 }
 /* Mobile */
@@ -200,14 +200,14 @@
   #featured {top: 70px;}
   #featured h3 {font-size:1.2em;} 
   
-  .headings {
+  .main-headings {
     position: static;
 
     width: 100%;
     color: #fff;
   }
-  .headings p {font-size: 1em; bottom:0;}
-  .headings h2 {font-size: 1.6em;}
-  .headings h1 {font-size: 4em; bottom: 5px;}
+  .main-headings p {font-size: 1em; bottom:0;}
+  .main-headings h2 {font-size: 1.6em;}
+  .main-headings h1 {font-size: 4em; bottom: 5px;}
   .headText {padding: 30px;}
 }

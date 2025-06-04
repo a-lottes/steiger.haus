@@ -27,11 +27,11 @@ const HonigPage = ({ data }) => {
               <div className="colorOverlay"></div> 
               <div className="row">
                 <div className="col-md-3 logo">
-                  <img src="https://image.ibb.co/nE1D2b/mcl_logo.png" alt="MCL Logo" />
+                  <img src="/img/honig2.png" alt="AL Logo" />
                 </div>
                 <div className="col-md-6 headText">
                   <div className="specialOffer">
-                    <div className="headings">
+                    <div className="main-headings">
                       <h2>{data.site.siteMetadata.title}</h2>
                       <h1>{data.markdownRemark.frontmatter.title}</h1>
                       <p>{data.markdownRemark.frontmatter.description}</p>
@@ -39,7 +39,6 @@ const HonigPage = ({ data }) => {
                   </div>
                 </div>
               </div>
-              <div className="importantArea">{data.markdownRemark.frontmatter.description}</div>
             </div>
           </div>
         </section>
