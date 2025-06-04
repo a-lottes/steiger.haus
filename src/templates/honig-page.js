@@ -14,7 +14,7 @@ const HonigPage = ({ data }) => {
 
   return (
     <Layout title={siteTitle} social={social}>
-      <Seo keywords={[`Gatsby Theme`, `Free Gatsby Template`, `Clay Gatsby Theme`]}
+      <Seo keywords={[]}
         title={data.markdownRemark.frontmatter.title}
         description={data.markdownRemark.frontmatter.description || ''}
         image={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid.src}
@@ -32,14 +32,14 @@ const HonigPage = ({ data }) => {
                 <div className="col-md-6 headText">
                   <div className="specialOffer">
                     <div className="headings">
-                      <h2>h2 title</h2>
-                      <h1>{data.site.siteMetadata.title}</h1>
-                      <p>{data.site.siteMetadata.description}</p>
+                      <h2>{data.site.siteMetadata.title}</h2>
+                      <h1>{data.markdownRemark.frontmatter.title}</h1>
+                      <p>{data.markdownRemark.frontmatter.description}</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="importantArea">{data.site.siteMetadata.description}</div>
+              <div className="importantArea">{data.markdownRemark.frontmatter.description}</div>
             </div>
           </div>
         </section>
