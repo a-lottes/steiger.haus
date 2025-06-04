@@ -164,6 +164,7 @@ footer.site-foot a {
   align-items: center;
   margin-right: 10px;
   white-space: nowrap;
+  width: 100%;
 }
 
 .nav {
