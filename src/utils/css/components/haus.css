@@ -1,0 +1,214 @@
+#topBackground {
+  background-color: #171B28;
+  height: 330px;
+}
+
+/* Header content */
+.topMain {
+  background: url(/img/Honig-Etikett-Presshonig.png) no-repeat center;
+  background-position: 15% 20%;
+  background-size:cover;
+  height: 350px;
+  position: absolute;
+  left: 30px; right: 30px; top:30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.importantArea {
+  position: absolute;
+  color:#fff;
+  bottom: -20px;
+  background: #44200f;
+  border-radius:50px;
+  text-transform: uppercase;
+  left:50%;
+  transform: translateX(-50%);
+  font-size:1.5em;
+  padding:5px 20px;
+  text-align: center;
+}
+
+.colorOverlay {
+  position:absolute;
+  background-color: rgba(34,36,48,.85); 
+  height:350px; 
+  width:100%;
+  
+}
+
+/* MCL Logo */
+#headerContent .logo img {
+  width: 100px;
+  margin: 30px;
+}
+
+.specialOffer {
+  position: relative;
+}
+
+.headings {
+  position: absolute;
+  top: 10%;
+  height: 100px;
+  margin-top: 100px;
+  color: #fff;
+}
+
+.headings h2, .headings h1 {font-weight: 900;margin:0;text-transform: uppercase;}
+.headings h2 {
+  margin:0;
+  font-size: 2.3em;
+  
+}
+
+.headings h1 {
+  font-size: 6em;
+  position:relative;
+  bottom:15px;
+}
+
+.headings p {
+  font-size:0.8em;
+  font-weight: 300;
+  position:relative;
+  bottom:15px;
+  color: rgba(255,255,255,.70);
+}
+
+/*      --Featured--      */
+
+#featured {
+  position:relative;
+  top: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px 0 0;
+}
+
+#featured h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #2B2B2B;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+#featured h3 span {
+  color: #D55665;
+  background: #fff;
+  padding: 0 3px;
+  font-weight: 700;
+}
+
+.productCard {
+  margin: 0 auto;
+  background: #fff;
+  width: 90%;
+  height: auto;
+  border: 3px solid #E5E6E6;
+  transition: .1s linear;
+}
+
+.productCard:hover {
+  box-shadow: 0px 0px 40px rgba(0,0,0,.15);
+}
+
+.productCard, .cardImg {border-top-left-radius: 15px;border-top-right-radius: 15px;}
+
+.cardImg {
+  height: 200px;
+  overflow: hidden;
+  position:relative;
+}
+
+.cardImg img {
+  min-width:100%;
+  min-height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.cardText {
+  padding: 10px;
+  height: auto;
+}
+
+.cardText h1 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+  max-width: 70%;
+}
+
+.cardText p {
+  color: #818181;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.cardText .price {
+  position: absolute;
+  color: #403E1E;
+  right:0px;
+  top: 185px;
+  background: #F0EB4C;
+  font-size: 1.6em;
+  font-weight: 900;
+  border-radius: 2em;
+  padding: 4px 14px; 
+  text-align: right;
+  /* box-shadow: 0px 5px 10px rgba(0,0,0,.4);*/
+}
+
+/*   --SMALLER SCREENS--   */
+
+/* Pad */
+@media (max-width: 992px) {
+  
+  .importantArea {
+    font-size: 1.3em;
+    bottom: -15px;
+  }
+  
+  .productCard {margin-bottom: 20px;}
+  #featured {top: 80px;}
+  #featured h3 {font-size:1.6em;} 
+  
+  .headings {
+    position: static;
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  .headings p {font-size: 1em;}
+  
+}
+/* Mobile */
+@media (max-width: 768px) {
+  
+  .importantArea {
+    font-size: 1em;
+    bottom: -15px;
+  }
+  
+  .productCard {margin-bottom: 20px;}
+  #featured {top: 70px;}
+  #featured h3 {font-size:1.2em;} 
+  
+  .headings {
+    position: static;
+
+    width: 100%;
+    color: #fff;
+  }
+  .headings p {font-size: 1em; bottom:0;}
+  .headings h2 {font-size: 1.6em;}
+  .headings h1 {font-size: 4em; bottom: 5px;}
+  .headText {padding: 30px;}
+}

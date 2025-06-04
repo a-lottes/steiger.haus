@@ -22,11 +22,28 @@ const HonigPage = ({ data }) => {
       />
 
       {data.site.siteMetadata.description && (
-        <header className="page-head">
-          <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
-          </h2>
-        </header>
+        <section id="headerContent">
+          <div id="topBackground">
+            <div className="topMain">
+              <div className="colorOverlay"></div> 
+              <div className="row">
+                <div className="col-md-3 logo">
+                  <img src="https://image.ibb.co/nE1D2b/mcl_logo.png" alt="MCL Logo" />
+                </div>
+                <div className="col-md-6 headText">
+                  <div className="specialOffer">
+                    <div className="headings">
+                      <h2>h2 title</h2>
+                      <h1>{data.site.siteMetadata.title}</h1>
+                      <p>{data.site.siteMetadata.description}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="importantArea">{data.site.siteMetadata.description}</div>
+            </div>
+          </div>
+        </section>
       )}
       <div className="post-feed">
         {posts.map(({ node }) => {
