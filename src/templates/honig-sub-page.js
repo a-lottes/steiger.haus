@@ -16,6 +16,7 @@ const BlogPostTemplate = (props) => {
   const previousLinkStatus = pageContext?.previous ? pageContext?.previous?.frontmatter?.templateKey === 'honig-sub-page' ? true : false : false
 
   const post = props.data.markdownRemark
+  const site = props.data.site
   const siteTitle = props.data.site.siteMetadata.title
   const social = props.data.site.siteMetadata.social
   return (
