@@ -112,7 +112,7 @@
 .cardText {
   padding: 10px;
   height: auto;
-  position: relative;
+  position: relative; 
 }
 
 .cardText h1 {

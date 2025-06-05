@@ -42,6 +42,7 @@ const HonigPage = ({ data }) => {
         </section>
         <section id="featured">
           <div className="row">
+            <div className="col-md-3"></div>
             {posts.map(({ node }) => {
               postCounter++
               return (

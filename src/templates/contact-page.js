@@ -54,7 +54,8 @@ const ContactPage = ({ data }, location) => {
         </div>
       )}
         <div className="post-content-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nullam non nisi est sit amet facilisis. Quisque id diam vel quam. Morbi tincidunt augue interdum velit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Mi tempus imperdiet nulla malesuada pellentesque. Maecenas ultricies mi eget mauris pharetra et ultrices. Cursus risus at ultrices mi tempus imperdiet nulla. Sit amet nisl suscipit adipiscing bibendum est ultricies. At volutpat diam ut venenatis tellus in. Cursus eget nunc scelerisque viverra mauris in. Ut aliquam purus sit amet luctus venenatis lectus.</p>
+          <p><b>Sie möchten Honig bestellen oder haben Fragen zu unserer Imkerei?</b>
+Dann freuen wir uns über Ihre Nachricht! Ob Bestellungen, Informationen zu unseren Produkten oder persönliche Anfragen – schreiben Sie uns ganz unkompliziert über das Kontaktformular. Wir melden uns zeitnah bei Ihnen zurück.</p>
 
           <h3 id="forms">Form</h3>
           <form name="contact" method="POST" data-netlify="true" action="thanks" onSubmit={handleSubmit}
