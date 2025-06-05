@@ -89,6 +89,7 @@
 
 .productCard:hover {
   box-shadow: 0px 0px 40px rgba(0,0,0,.15);
+  text-decoration: none;
 }
 
 .productCard, .cardImg {border-top-left-radius: 15px;border-top-right-radius: 15px;}
@@ -111,29 +112,30 @@
 .cardText {
   padding: 10px;
   height: auto;
+  position: relative;
 }
 
 .cardText h1 {
   text-transform: uppercase;
-  font-size: 1em;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 10px;
   max-width: 70%;
+  font-size: 0.8em;
 }
 
 .cardText p {
   color: #818181;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 .cardText .price {
   position: absolute;
   color: #403E1E;
-  right:0px;
-  top: 185px;
-  background: #F0EB4C;
+  right:-15px;
+  top: -15px;
+  background: hsl(51, 62%, 60%);
   font-size: 1.6em;
   font-weight: 900;
   border-radius: 2em;
