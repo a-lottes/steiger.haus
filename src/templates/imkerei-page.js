@@ -29,7 +29,7 @@ const ImkereiPage = (props) => {
                 <div className="col-md-6 headText">
                   <div className="specialOffer">
                     <div className="main-headings">
-                      <h2>{data.site.siteMetadata.title}</h2>
+                      <h2>{site.siteMetadata.title}</h2>
                       <h1>{post.frontmatter.title}</h1>
                       <p>{post.frontmatter.description}</p>
                     </div>
