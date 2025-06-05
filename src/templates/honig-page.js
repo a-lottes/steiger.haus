@@ -100,6 +100,7 @@ query IndexPage {
           date(formatString: "DD:MM:YYYY hh:mm a")
           title
           description
+          price
           thumbnail {
             childImageSharp {
               fluid(maxWidth: 1360) {
