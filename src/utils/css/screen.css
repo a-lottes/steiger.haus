@@ -576,7 +576,7 @@ footer.site-foot a {
   transform: translateX(calc(50vw - 50%));
 }
 .post-content-body {
-  font-size: 1.9rem;
+  font-size: 0.8em;
   line-height: 1.65em;
 }
 @media (max-width: 500px) {
@@ -592,6 +592,9 @@ footer.site-foot a {
 .post-content-body h5,
 .post-content-body h6 {
   color: var(--color-base);
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .post-content-body li {

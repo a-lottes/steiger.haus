@@ -12,7 +12,6 @@ export default props => (
         })`,
       }
     }>
-        <img src={props.node.frontmatter.thumbnail.childImageSharp.fluid.src} alt="product"/>
       </div>
       <div className="cardText">
         <span className="price">{props.node.frontmatter.price },-</span>

@@ -6,11 +6,9 @@ title: Presshonig
 price: 10
 description: "Schonend gepresster Honig aus Dudweiler – intensiv im Geschmack, naturbelassen in seiner Struktur."
 ---
-
+![clay-images-10](/img/Honig-Etikett-Presshonig.png)
 
 Presshonig ist die ursprünglichste Form der Honiggewinnung – eine selten gewordene Handwerkskunst, die wir in unserer Imkerei in Dudweiler mit großer Sorgfalt pflegen. Anstatt die Waben maschinell zu schleudern, pressen wir sie schonend von Hand. Dabei wird der Honig mitsamt feiner Wachspartikel, Pollen und wertvollen Enzymen aus dem Naturwabenbau extrahiert – ohne Hitze, ohne Filtration, ohne Kompromisse.
-
-![clay-images-10](/img/Honig-Etikett-Presshonig.png)
 
 Diese traditionelle Methode bewahrt die volle Aromenvielfalt der Dudweiler Blütenlandschaft: Kastanien, Obstbäume, Waldpflanzen und – in der Sommertracht – Beeren- und Lavendelblüten prägen das komplexe, kräftige Geschmacksprofil. Der Honig ist cremig-dicht, aromatisch und besonders reich an natürlichen Inhaltsstoffen.
 
