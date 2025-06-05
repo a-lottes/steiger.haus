@@ -6,7 +6,7 @@ export default props => (
     <div className="productCard">
       <Link to={props.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${props.node.fields.slug.split('/').slice(2, -1).join('/')}`} className="post-card-link">
       <div className="cardImg">
-        <img src="https://image.ibb.co/hJOZFw/product_placeholder.png" alt="product"/>
+        <img src={props.node.frontmatter.thumbnail.childImageSharp.fluid.src} alt="product"/>
       </div>
       <div className="cardText">
         <span className="price">1500,-</span>
