@@ -3,7 +3,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import PostCard from "../components/postCard"
+import ProductCard from "../components/productCard"
 
 // eslint-disable-next-line
 const HonigPage = ({ data }) => {
@@ -40,11 +40,11 @@ const HonigPage = ({ data }) => {
             </div>
           </div>
         </section>
-      <div className="post-feed">
+        <section id="featured">
         {posts.map(({ node }) => {
           postCounter++
           return (
-            <PostCard
+            <ProductCard
               key={node.fields.slug}
               count={postCounter}
               node={node}
@@ -52,7 +52,7 @@ const HonigPage = ({ data }) => {
             />
           )
         })}
-      </div>
+        </section>
     </Layout>
   )
 }

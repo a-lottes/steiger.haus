@@ -20,15 +20,29 @@ const ImkereiPage = (props) => {
           image={post.frontmatter.thumbnail.childImageSharp.gatsbyImageData.images.fallback.src}
 
         />
+         <section id="headerContent">
+          <div id="topBackground">
+            <div className="topMain">
+              <div className="row">
+                <div className="col-md-3 logo">
+                </div>
+                <div className="col-md-6 headText">
+                  <div className="specialOffer">
+                    <div className="main-headings">
+                      <h2>{data.site.siteMetadata.title}</h2>
+                      <h1>{post.frontmatter.title}</h1>
+                      <p>{post.frontmatter.description}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <article
           className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
         >
-          <header className="post-content-header">
-            <h1 className="post-content-title">{post.frontmatter.title}</h1>
-          </header>
-          {post.frontmatter.description && (
-            <p className="post-content-excerpt">{post.frontmatter.description}</p>
-          )}
+          
           {post.frontmatter.thumbnail && (
             <div className="post-content-image">
               <GatsbyImage
