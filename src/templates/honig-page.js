@@ -24,10 +24,9 @@ const HonigPage = ({ data }) => {
         <section id="headerContent">
           <div id="topBackground">
             <div className="topMain">
-              <div className="colorOverlay"></div> 
               <div className="row">
                 <div className="col-md-3 logo">
-                  <img src="/img/honig2.png" alt="AL Logo" />
+                  <img src="/img/logo2.png" alt="AL Logo" />
                 </div>
                 <div className="col-md-6 headText">
                   <div className="specialOffer">

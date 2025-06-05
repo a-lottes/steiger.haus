@@ -1,18 +1,7 @@
-#topBackground {
-  height: 400px;
-}
 
 /* Header content */
 .topMain {
-  background: url(/img/Honig-Etikett-Presshonig.png) no-repeat center;
-  background-position: 15% 20%;
-  background-size:cover;
-  height: 350px;
-  position: absolute;
-  left: 30px; right: 30px; top:30px;
-  max-width: 1000px;
-  margin: 0 auto;
-  border-radius: 15px;;
+  color: #39280d;
 }
 
 .importantArea {
@@ -27,14 +16,6 @@
   font-size:1.5em;
   padding:5px 20px;
   text-align: center;
-}
-
-.colorOverlay {
-  position:absolute;
-  background-color: rgba(167 167 167 / 85%); 
-  height:350px; 
-  width:100%;
-  
 }
 
 /* MCL Logo */
@@ -52,7 +33,6 @@
   top: 10%;
   height: 100px;
   margin-top: 100px;
-  color: #39280d;
 }
 
 .main-headings h2, .main-headings h1 {font-weight: 900;margin:0;text-transform: uppercase;}
