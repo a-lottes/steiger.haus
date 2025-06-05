@@ -26,7 +26,6 @@ const HonigPage = ({ data }) => {
             <div className="topMain">
               <div className="row">
                 <div className="col-md-3 logo">
-                  <img src="/img/logo2.png" alt="AL Logo" />
                 </div>
                 <div className="col-md-6 headText">
                   <div className="specialOffer">

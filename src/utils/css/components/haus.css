@@ -6,7 +6,7 @@
 
 .importantArea {
   position: absolute;
-  color:#fff;
+  color:#ƒ;
   bottom: -20px;
   background: #44200f;
   border-radius:50px;
@@ -29,13 +29,11 @@
 }
 
 .main-headings {
-  position: absolute;
   top: 10%;
-  height: 100px;
   margin-top: 100px;
 }
 
-.main-headings h2, .main-headings h1 {font-weight: 900;margin:0;text-transform: uppercase;}
+.main-headings h2, .main-headings h1 {font-weight: 900;margin:0;text-transform: uppercase;text-align: center;}
 .main-headings h2 {
   margin:0;
   font-size: 1.3em;
@@ -53,7 +51,6 @@
   font-weight: 300;
   position:relative;
   bottom:15px;
-  color: rgba(255,255,255,.70);
 }
 
 /*      --Featured--      */
@@ -161,10 +158,8 @@
   
   .main-headings {
     position: static;
-    height: 50px;
     width: 500px;
     margin: 0 auto;
-    color: #fff;
   }
   .main-headings p {font-size: 1em;}
   
@@ -183,9 +178,7 @@
   
   .main-headings {
     position: static;
-
     width: 100%;
-    color: #fff;
   }
   .main-headings p {font-size: 1em; bottom:0;}
   .main-headings h2 {font-size: 1.6em;}
