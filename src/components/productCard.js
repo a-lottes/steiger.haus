@@ -16,7 +16,7 @@ export default props => (
       <div className="cardText">
         <span className="price">{props.node.frontmatter.price },-</span>
         <h1>{props.node.frontmatter.title }</h1>
-        <p>{props.node.frontmatter.title }</p>
+        <p>{props.node.frontmatter.description }</p>
       </div>
       </Link>
     </div>
