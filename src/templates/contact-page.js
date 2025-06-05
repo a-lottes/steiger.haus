@@ -111,7 +111,7 @@ const ContactPage = ({ data }, location) => {
               {/* General, Purchase, Commissions, Exhibitions, Gallery Feature, Other */}
               <div className="col-12">
                 <select name="category" id="category" onChange={handleChange} required={true}>
-                  <option value>-Nature of Enquiry-</option>
+                  <option value>- Thema -</option>
                   <option value={"General"}>Allgemeines</option>
                   <option value={"Purchase"}>Kauf</option>
                   <option value={"Cooperation"}>Zusammenarbeit</option>
@@ -143,7 +143,7 @@ const ContactPage = ({ data }, location) => {
                 <textarea
                   name="message"
                   id="message"
-                  placeholder="Enter your message"
+                  placeholder="..."
                   rows={6}
                   defaultValue={""}
                   onChange={handleChange}
@@ -159,7 +159,7 @@ const ContactPage = ({ data }, location) => {
                   <li>
                     <input
                       type="submit"
-                      defaultValue="Send Message"
+                      defaultValue="Absenden"
                       className="primary"
                     />
                   </li>
