@@ -45,14 +45,6 @@ const ContactPage = ({ data }, location) => {
         />
      
       <article className="contact-form page-template ">
-      {data.markdownRemark.frontmatter.thumbnail && (
-        <div className="post-content-image">
-          <GatsbyImage
-            image={getImage(data.markdownRemark.frontmatter.thumbnail)}
-            className="kg-image"
-            alt={data.markdownRemark.frontmatter.title} />
-        </div>
-      )}
         <div className="post-content-body">
           <p><b>Sie möchten Honig bestellen oder haben Fragen zu unserer Imkerei?</b>
 Dann freuen wir uns über Ihre Nachricht! Ob Bestellungen, Informationen zu unseren Produkten oder persönliche Anfragen – schreiben Sie uns ganz unkompliziert über das Kontaktformular. Wir melden uns zeitnah bei Ihnen zurück.</p>

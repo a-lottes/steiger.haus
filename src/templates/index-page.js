@@ -21,17 +21,7 @@ const IndexPage = ({ data }) => {
 
             />           
             <div className="post-feed">
-                {posts.map(({ node }) => {
-                    postCounter++
-                    return (
-                        <PostCard
-                            key={node.fields.slug}
-                            count={postCounter}
-                            node={node}
-                            postClass={`post`}
-                        />
-                    )
-                })}
+
             </div>
         </Layout>
     )
