@@ -72,7 +72,7 @@ const ContactPage = ({ data }, location) => {
                   name="first-name"
                   id="first-name"
                   onChange={handleChange}
-                  placeholder="First Name"
+                  placeholder="Vorname"
                   required={true}
                 />
               </div>
@@ -82,7 +82,7 @@ const ContactPage = ({ data }, location) => {
                   name="last-name"
                   id="last-name"
                   onChange={handleChange}
-                  placeholder="Last Name"
+                  placeholder="Name"
                   required={true}
                 />
               </div>
@@ -103,7 +103,7 @@ const ContactPage = ({ data }, location) => {
                   name="location"
                   id="location"
                   onChange={handleChange}
-                  placeholder="Location"
+                  placeholder="Adresse"
                   required={true}
                 />
               </div>
@@ -112,12 +112,10 @@ const ContactPage = ({ data }, location) => {
               <div className="col-12">
                 <select name="category" id="category" onChange={handleChange} required={true}>
                   <option value>-Nature of Enquiry-</option>
-                  <option value={"General"}>General</option>
-                  <option value={"Purchase"}>Purchase</option>
-                  <option value={"Commissions"}>Commissions</option>
-                  <option value={"Exhibitions"}>Exhibitions</option>
-                  <option value={"Gallery Feature"}>Gallery Feature</option>
-                  <option value={"Other"}>Other</option>
+                  <option value={"General"}>Allgemeines</option>
+                  <option value={"Purchase"}>Kauf</option>
+                  <option value={"Cooperation"}>Zusammenarbeit</option>
+                  <option value={"Other"}>Anderes</option>
                 </select>
               </div>
 

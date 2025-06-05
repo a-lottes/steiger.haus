@@ -41,17 +41,19 @@ const HonigPage = ({ data }) => {
           </div>
         </section>
         <section id="featured">
-        {posts.map(({ node }) => {
-          postCounter++
-          return (
-            <ProductCard
-              key={node.fields.slug}
-              count={postCounter}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
+          <div className="row">
+            {posts.map(({ node }) => {
+              postCounter++
+              return (
+                <ProductCard
+                  key={node.fields.slug}
+                  count={postCounter}
+                  node={node}
+                  postClass={`post`}
+                />
+              )
+            })}
+          </div>
         </section>
     </Layout>
   )
