@@ -55,6 +55,10 @@
 
 /*      --Featured--      */
 
+.post-card-link:hover{
+    text-decoration: none !important;
+}
+
 #featured {
   position:relative;
   top: 60px;
@@ -92,7 +96,12 @@
   text-decoration: none;
 }
 
-.productCard, .cardImg {border-top-left-radius: 15px;border-top-right-radius: 15px;}
+.productCard, .cardImg {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
 .cardImg {
   height: 200px;
