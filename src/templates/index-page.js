@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
 
             />           
             <div className="post-feed">
-              <img src="/img/teaser.png" />   
+              <img src="/img/teaser.png" style={{margin: '0px auto'}} />   
             </div>
         </Layout>
     )

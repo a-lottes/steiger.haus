@@ -40,8 +40,8 @@ const HonigPage = ({ data }) => {
             </div>
           </div>
         </section>
-        <section id="featured">
-          <img src="/img/teaser2.png" style="margin:0px auto;" />   
+          <img src="/img/teaser2.png" style={{margin: '0px auto'}} />    
+        <section id="featured"> 
           <div className="row">
             <div className="col-md-3"></div>
             {posts.map(({ node }) => {
