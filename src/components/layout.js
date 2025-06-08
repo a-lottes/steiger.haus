@@ -65,8 +65,7 @@ const Layout = (props) => {
         </div>
       </main>
       <footer className="site-foot">
-        <Link to={`/contact`}>Kontakt</Link>
-        <hr></hr>
+        <Link to={`/contact`}>Kontakt</Link> | <Link to={`/imprint`}>Impressum</Link><br/>
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
         Built by {""}
         <a
