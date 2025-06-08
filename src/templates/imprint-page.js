@@ -38,3 +38,55 @@ const ImprintPage = ({ data }) => {
     )
 }
 export default ImprintPage
+export const ImprintPageQuery = graphql`
+  query ImprintPage {
+    site {
+        siteMetadata {
+          title
+          social{
+            twitter
+            facebook
+          }    
+        }
+      }
+      markdownRemark(frontmatter: {templateKey: {eq: "imprint-page"}}) {
+        frontmatter {
+          title
+          description
+          thumbnail {
+            childImageSharp {
+              fluid(maxWidth: 1360) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        
+      }
+      allMarkdownRemark(
+        filter: {frontmatter: {pagetype: {eq: "main"}}}
+        limit: 30
+        sort: {frontmatter: {number: ASC}}
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              date(formatString: "MMMM DD,YYYY")
+              title
+              description
+              thumbnail {
+                childImageSharp {
+                  fluid(maxWidth: 1360) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+`;
