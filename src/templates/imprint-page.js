@@ -20,6 +20,7 @@ const ImprintPage = ({ data }) => {
         image={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid.src}
 
       />
+      <article className="page-template">
         <div className="post-content-body">
           <p>
             <h1>Impressum</h1>
@@ -34,6 +35,8 @@ const ImprintPage = ({ data }) => {
 
           </p>
         </div>
+      </article>
+
         </Layout>
     )
 }

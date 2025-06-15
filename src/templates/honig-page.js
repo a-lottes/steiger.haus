@@ -30,7 +30,6 @@ const HonigPage = ({ data }) => {
                     <div className="main-headings">
                       <h2>{data.site.siteMetadata.title}</h2>
                       <h1>{data.markdownRemark.frontmatter.title}</h1>
-                      <p>{data.markdownRemark.frontmatter.description}</p>
                     </div>
                   </div>
                 </div>
@@ -38,6 +37,11 @@ const HonigPage = ({ data }) => {
             </div>
           </div>
         </section>  
+      <article className="contact-form page-template ">
+        <div className="post-content-body">
+          Entdecken Sie unsere regionalen Honigspezialitäten – naturbelassen, handwerklich gewonnen und voller Charakter. Jeder Honig erzählt die Geschichte unserer Bienen und der Blütenvielfalt rund um Dudweiler.
+        </div>
+      </article>
         <section id="featured"> 
           <div className="row">
             <div className="col-md-3"></div>

@@ -31,7 +31,6 @@ const ImkereiPage = (props) => {
                     <div className="main-headings">
                       <h2>{site.siteMetadata.title}</h2>
                       <h1>{post.frontmatter.title}</h1>
-                      <p>{post.frontmatter.description}</p>
                     </div>
                   </div>
                 </div>
