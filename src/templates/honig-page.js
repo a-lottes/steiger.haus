@@ -71,7 +71,7 @@ const HonigPage = ({ data }) => {
         >
           <div
             className="post-content-body"
-            dangerouslySetInnerHTML={{ __html: post.html }}
+            dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
           />
           <footer className="post-content-footer">
           </footer>
@@ -131,6 +131,7 @@ query IndexPage {
             }
           }
         }
+        html
       }
     }
   }
