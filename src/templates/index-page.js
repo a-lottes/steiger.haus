@@ -20,9 +20,16 @@ const IndexPage = ({ data }) => {
                 image={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid.src}
 
             />           
-            <div className="post-feed">
-              <img src="/img/teaser.png" style={{margin: '0px auto'}} />   
-            </div>
+          <article
+            className={`post-content ${data.markdownRemark.frontmatter.thumbnail || `no-image`}`}
+          >
+            <div
+              className="post-content-body"
+              dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+            />
+            <footer className="post-content-footer">
+            </footer>
+          </article>
         </Layout>
     )
 }
@@ -50,7 +57,7 @@ export const IndexPageQuery = graphql`
             }
           }
         }
-        
+        html
       }
       allMarkdownRemark(
         filter: {frontmatter: {pagetype: {eq: "main"}}}
