@@ -41,7 +41,11 @@ const ImkereiPage = (props) => {
         <article
           className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
         >
-          
+          {post.frontmatter.description && (
+            <div className="post-content-body">
+            {post.frontmatter.description}
+            </div>
+          )}
           {post.frontmatter.thumbnail && (
             <div className="post-content-image">
               <GatsbyImage

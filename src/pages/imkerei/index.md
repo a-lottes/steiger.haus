@@ -9,13 +9,11 @@ pagetype:
   - main
 featuredimage: /img/logo2.png
 ---
-Unsere kleine Privatimkerei liegt in Dudweiler und setzt auf naturnahe Bienenhaltung mit wenigen Völkern. Wir produzieren Blüten- und Presshonig nach alter Handwerkstradition – unverfälscht, regional und mit viel Sorgfalt. Unsere sanftmütigen Carnica-Bienen leben in hochwertigen Zander-Beuten von Frankenbeute und schenken uns einen Honig, der die Vielfalt der Dudweiler Natur in sich trägt.
-
-![clay-images-11](/img/teaser3.png)
-
 Mitten in Dudweiler betreiben wir eine kleine, traditionsverbundene Privatimkerei – fernab industrieller Methoden und mit tiefem Respekt für das Leben der Bienen. Mit nur wenigen Völkern und viel persönlichem Einsatz entstehen bei uns Honige, die die Landschaft und Jahreszeit widerspiegeln: naturbelassene Blütenhonige und selten gewordener Presshonig, wie er früher üblich war – unverfälscht, ursprünglich und voller Charakter.
 
 Statt Massenproduktion setzen wir auf Qualität, Ruhe und handwerkliches Arbeiten. Unsere Bienen sammeln Nektar auf Kastanien, Obstblüten, im Wald und – in den Sommermonaten – auch auf Lavendel- und Beerenpflanzen. Was sie uns schenken, verarbeiten wir mit größter Sorgfalt und Geduld weiter – ohne Filtern, ohne Erhitzen, ganz auf alte Weise.
+
+![clay-images-11](/img/beehive.png)
 
 ## Die Bienen und ihre Behausung
 
