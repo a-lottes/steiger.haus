@@ -10,7 +10,7 @@ number: 2
 featuredimage: /img/clay-images-15.jpg
 ---
 
-![clay-images-11](/img/teaser_clean_.png)
+![clay-images-11](/img/teaser_clean.png)
 
 Unsere Honige entstehen in liebevoller Handarbeit direkt in Dudweiler – naturbelassen, regional und voller Aromen. Der Blütenhonig vereint die Vielfalt der umliegenden Kastanien-, Obst- und Waldblüten mit saisonalen Akzenten wie Lavendel und Beeren. Für unseren Presshonig werden die Waben traditionell von Hand gepresst – eine schonende Methode, bei der Pollen, Enzyme und feine Wachspartikel erhalten bleiben. So entstehen Honige mit Charakter und Tiefe – ursprünglich, kräftig im Geschmack und pur im Ausdruck der Natur.
 
