@@ -9,7 +9,6 @@ import ProductCard from "../components/productCard"
 const HistoriePage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
   const social = data.site.siteMetadata.social
-  const posts = data.allMarkdownRemark.edges
   let postCounter = 0
 
   return (
