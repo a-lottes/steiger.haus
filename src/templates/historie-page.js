@@ -94,7 +94,7 @@ query IndexPage {
       }
     }
   }
-  markdownRemark(frontmatter: {templateKey: {eq: "honig-page"}}) {
+  markdownRemark(frontmatter: {templateKey: {eq: "historie-page"}}) {
     frontmatter {
       title
       description
@@ -107,33 +107,6 @@ query IndexPage {
       }
     }
     html
-  }
-  allMarkdownRemark(
-    filter: {frontmatter: {templateKey: {eq: "honig-sub-page"}}}
-    limit: 30
-    sort: {frontmatter: {date: DESC}}
-  ) {
-    edges {
-      node {
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "DD:MM:YYYY hh:mm a")
-          title
-          description
-          price
-          thumbnail {
-            childImageSharp {
-              fluid(maxWidth: 1360) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-        html
-      }
-    }
   }
 }
 `;

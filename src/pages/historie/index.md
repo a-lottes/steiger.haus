@@ -3,8 +3,8 @@ templateKey: historie-page
 thumbnail: /img/teaser3.png
 date: 2023-03-02T10:17:05.133Z
 title: Historie
-description: Unsere kleine Privatimkerei liegt in Dudweiler und setzt auf naturnahe Bienenhaltung mit wenigen Völkern. Wir produzieren Blüten- und Presshonig nach alter Handwerkstradition – unverfälscht, regional und mit viel Sorgfalt. Unsere sanftmütigen Carnica-Bienen leben in hochwertigen Zander-Beuten von Frankenbeute und schenken uns einen Honig, der die Vielfalt der Dudweiler Natur in sich trägt.
-number: 1
+description: Die Steigerhaus Imkerei ist tief mit der Geschichte des Ortes verwoben. Unser Zuhause – das ehemalige Grubenbeamtenhaus Rehbachstraße 93/95 – wurde Anfang des 20. Jahrhunderts erbaut, mitten im traditionsreichen Arbeiter- und Beamtenviertel von Dudweiler-Rehbach. Wo einst Steiger ihre Familien großzogen und der Bergbau das Leben prägte, summen heute unsere Carnica-Bienen zwischen Lavendel, Kastanienblüten und Wildwiesen.
+number: 6
 pagetype:
   - main
 featuredimage: /img/logo2.png
