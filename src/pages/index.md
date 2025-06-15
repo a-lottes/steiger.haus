@@ -16,4 +16,6 @@ Unsere Imkerei trägt nicht nur einen Namen, sie trägt Geschichte: Die Steigerh
 
 Mit dem Namen Steigerhaus möchten wir diese Tradition ehren und zugleich etwas Neues schaffen: eine kleine, naturnahe Privatimkerei, die den Rhythmus der Natur achtet und hochwertige Honige in Handarbeit produziert – mitten in Dudweiler, am Rande des Waldes. Unsere Carnica-Bienen leben in Zander-Beuten, gesammelt wird nur so viel wie nötig, geerntet mit viel Geduld – und manchmal sogar wie früher: durch sanftes Pressen der Waben.
 
+![clay-images-11](/img/beehive.png)
+
 Die Steigerhaus Imkerei verbindet alte Handwerkskunst mit regionaler Verantwortung – für echten Honiggenuss mit Herkunft und Haltung.
