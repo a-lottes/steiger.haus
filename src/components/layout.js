@@ -48,6 +48,12 @@ const Layout = (props) => {
               >
                 <Link to={`/honig`}>Honig</Link>
               </li>
+              <li
+                className={`nav-home  ${data.pathname.includes("/historie") ? "nav-current" : ""} `}
+                role="menuitem"
+              >
+                <Link to={`/historie`}>Historie</Link>
+              </li>
             </ul>
           </nav>
           <div className="site-head-center">
