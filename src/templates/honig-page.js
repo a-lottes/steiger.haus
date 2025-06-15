@@ -67,7 +67,7 @@ const HonigPage = ({ data }) => {
         </section>
 
          <article
-          className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
+          className={`post-content ${data.markdownRemark.frontmatter.thumbnail || `no-image`}`}
         >
           <div
             className="post-content-body"
@@ -77,7 +77,7 @@ const HonigPage = ({ data }) => {
           </footer>
         </article>
 
-        
+
     </Layout>
   )
 }
