@@ -10,4 +10,4 @@ number: 2
 featuredimage: /img/clay-images-15.jpg
 ---
 
-
+![clay-images-11](/img/teaser2.png)

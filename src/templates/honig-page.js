@@ -20,12 +20,13 @@ const HonigPage = ({ data }) => {
         image={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid.src}
 
       />
-
         <section id="headerContent">
           <div id="topBackground">
             <div className="topMain">
               <div className="row">
-                <div className="col-md-12 headText">
+                <div className="col-md-3 logo">
+                </div>
+                <div className="col-md-6 headText">
                   <div className="specialOffer">
                     <div className="main-headings">
                       <h2>{data.site.siteMetadata.title}</h2>
@@ -36,12 +37,18 @@ const HonigPage = ({ data }) => {
               </div>
             </div>
           </div>
-        </section>  
-      <article className="contact-form page-template ">
-        <div className="post-content-body">
-          Entdecken Sie unsere regionalen Honigspezialitäten – naturbelassen, handwerklich gewonnen und voller Charakter. Jeder Honig erzählt die Geschichte unserer Bienen und der Blütenvielfalt rund um Dudweiler.
-        </div>
-      </article>
+        </section>
+
+        <article
+          className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
+        >
+          {data.markdownRemark.frontmatter.description && (
+            <div className="post-content-body">
+            {data.markdownRemark.frontmatter.description}
+            </div>
+          )}
+
+        </article>
         <section id="featured"> 
           <div className="row">
             <div className="col-md-3"></div>
@@ -57,8 +64,20 @@ const HonigPage = ({ data }) => {
               )
             })}
           </div>
-          <img src="/img/teaser2.png" style={{margin: '0px auto'}} />  
         </section>
+
+         <article
+          className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
+        >
+          <div
+            className="post-content-body"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+          <footer className="post-content-footer">
+          </footer>
+        </article>
+
+        
     </Layout>
   )
 }
