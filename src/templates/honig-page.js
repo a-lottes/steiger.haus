@@ -40,7 +40,7 @@ const HonigPage = ({ data }) => {
         </section>
 
         <article
-          className={`post-content ${post.frontmatter.thumbnail || `no-image`}`}
+          className={`post-content  no-image`}
         >
           {data.markdownRemark.frontmatter.description && (
             <div className="post-content-body">
