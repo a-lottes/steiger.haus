@@ -46,24 +46,7 @@ const HistoriePage = ({ data }) => {
             {data.markdownRemark.frontmatter.description}
             </div>
           )}
-
         </article>
-        <section id="featured"> 
-          <div className="row">
-            <div className="col-md-3"></div>
-            {posts.map(({ node }) => {
-              postCounter++
-              return (
-                <ProductCard
-                  key={node.fields.slug}
-                  count={postCounter}
-                  node={node}
-                  postClass={`post`}
-                />
-              )
-            })}
-          </div>
-        </section>
 
          <article
           className={`post-content ${data.markdownRemark.frontmatter.thumbnail || `no-image`}`}
