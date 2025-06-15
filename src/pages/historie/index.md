@@ -11,7 +11,7 @@ featuredimage: /img/logo2.png
 ---
 
 ![clay-images-11](/img/beehive.png)
-### Unsere Geschichte – vom Steigerhaus zur Imkerei
+### Unsere Geschichte – vom Bergmannshaus zur Imkerei
 #### Ein Ort mit Vergangenheit. Ein Honig mit Seele.
 
 Dieses Ensemble von vier Beamten-Doppelhäusern, gebaut 1906 bis 1908 vom Preußischen Bergfiskus, ist ein stilles Denkmal der saarländischen Industriekultur. Massive Backsteinmauern, Mittel- und Eckrisalite und Hammer-und-Schlegel-Symbole am Dachfirst zeugen vom Stolz und der Bedeutung des Berufsstandes.
