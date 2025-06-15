@@ -106,7 +106,7 @@ query IndexPage {
         }
       }
     }
-    
+    html
   }
   allMarkdownRemark(
     filter: {frontmatter: {templateKey: {eq: "honig-sub-page"}}}
