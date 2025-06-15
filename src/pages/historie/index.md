@@ -9,6 +9,8 @@ pagetype:
   - main
 featuredimage: /img/logo2.png
 ---
+
+![clay-images-11](/img/beehive.png)
 ### Unsere Geschichte – vom Steigerhaus zur Imkerei
 #### Ein Ort mit Vergangenheit. Ein Honig mit Seele.
 
@@ -16,19 +18,26 @@ Dieses Ensemble von vier Beamten-Doppelhäusern, gebaut 1906 bis 1908 vom Preuß
 
 In direkter Nachbarschaft liegt die Flitschstraße – ein Name, der nicht nur topografisch interessant ist, sondern auch sinnbildlich für das Viertel steht. Die Flitsch war jahrzehntelang Heimat vieler Bergleute. Entlang der alten Wege zur Grube Hirschbach entstanden schon ab 1852 Prämienhäuser und Gasthöfe – darunter das bekannte „Zu den Scalleyschächten“. Die Flitsch galt lange als etwas rau, aber herzlich – eine Welt für sich, geformt von harter Arbeit, Gemeinschaft und einem tiefen Zusammenhalt.
 
-![clay-images-11](/img/beehive.png)
 
 ### Ein kurzer Blick in die Geschichte
 #### Zeitleiste – Rehbach, Flitsch und die Beamtenhäuser
 
 📍 1730 – Erste Arbeiterhäuser an der Rehbach entstehen im Zuge der Salzproduktion
+
 📍 1852 – Inbetriebnahme der Grube Hirschbach (vormals „Scalleyschächte“)
+
 📍 1850–1900 – Bau von Prämienhäusern und ersten Siedlungen auf der Flitsch
+
 📍 1906–1908 – Errichtung der Beamtenhäuser Rehbachstraße 77–95 durch den Preußischen Bergfiskus
+
 📍 1908 – Ausbau der Flitschstraße zur zweiten Eisenbahnbrücke
+
 📍 1952 – Stilllegung der Grube Hirschbach
+
 📍 1960er – Verkauf der Grubenhäuser an Privatpersonen
+
 📍 2024 – Gründung der Steigerhaus Imkerei
+
 
 ### Heute: Handwerk im Rhythmus der Natur
 

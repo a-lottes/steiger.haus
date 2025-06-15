@@ -1,6 +1,6 @@
 ---
 templateKey: imkerei-page
-thumbnail: /img/teaser3.png
+thumbnail: /img/teaser.png
 date: 2023-03-02T10:17:05.133Z
 title: Imkerei
 description: Unsere kleine Privatimkerei liegt in Dudweiler und setzt auf naturnahe Bienenhaltung mit wenigen Völkern. Wir produzieren Blüten- und Presshonig nach alter Handwerkstradition – unverfälscht, regional und mit viel Sorgfalt. Unsere sanftmütigen Carnica-Bienen leben in hochwertigen Zander-Beuten von Frankenbeute und schenken uns einen Honig, der die Vielfalt der Dudweiler Natur in sich trägt.
@@ -11,7 +11,7 @@ featuredimage: /img/logo2.png
 ---
 Unsere kleine Privatimkerei liegt in Dudweiler und setzt auf naturnahe Bienenhaltung mit wenigen Völkern. Wir produzieren Blüten- und Presshonig nach alter Handwerkstradition – unverfälscht, regional und mit viel Sorgfalt. Unsere sanftmütigen Carnica-Bienen leben in hochwertigen Zander-Beuten von Frankenbeute und schenken uns einen Honig, der die Vielfalt der Dudweiler Natur in sich trägt.
 
-![clay-images-11](/img/teaser3.png)
+![clay-images-11](/img/teaser4.png)
 
 Mitten in Dudweiler betreiben wir eine kleine, traditionsverbundene Privatimkerei – fernab industrieller Methoden und mit tiefem Respekt für das Leben der Bienen. Mit nur wenigen Völkern und viel persönlichem Einsatz entstehen bei uns Honige, die die Landschaft und Jahreszeit widerspiegeln: naturbelassene Blütenhonige und selten gewordener Presshonig, wie er früher üblich war – unverfälscht, ursprünglich und voller Charakter.
 

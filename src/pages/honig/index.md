@@ -17,3 +17,5 @@ Unsere Honige entstehen in liebevoller Handarbeit direkt in Dudweiler – naturb
 ## Sommertracht
 
 Unsere Sommertracht spiegelt die warme Jahreszeit in ihrer ganzen Blütenpracht wider. Neben Kastanie, Obst- und Waldblüten bereichern in diesen Monaten auch Lavendel-, Brombeer- und andere Sommerblüten den Honig mit feinen, floralen Noten. Das Ergebnis ist ein besonders aromatischer, oft leicht würziger Honig mit intensiver Tiefe – ein echtes Stück Sommer im Glas.
+
+![clay-images-11](/img/teaser3.png)
