@@ -170,6 +170,7 @@ footer.site-foot a {
     padding: 0px;
     position: relative;
     top: 50px;
+    width: fit-content;
 }
 
 .site-head li {
