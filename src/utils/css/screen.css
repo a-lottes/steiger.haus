@@ -336,7 +336,7 @@ footer.site-foot a {
   }
   .site-head-left {
     order: 2;
-    margin: 0;
+    margin: 30px;
     width: 100%;
   }
   .site-head-center {
