@@ -148,6 +148,7 @@ footer.site-foot a {
   z-index: 300;
   margin-top: -10px;
   font-size: 1.35rem;
+  padding-bottom: 60px;
 }
 
 .site-head-container {
@@ -158,20 +159,17 @@ footer.site-foot a {
 }
 
 .site-head-left {
-  position: relative;
   z-index: 100;
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  white-space: nowrap;
-  width: 100%;
+  display: content;
 }
 
 .nav {
-  display: flex;
-  margin: 0 0 0 -12px;
-  padding: 0;
-  list-style: none;
+    display: flex;
+    list-style: none;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+    top: 50px;
 }
 
 .site-head li {
@@ -186,14 +184,15 @@ footer.site-foot a {
   margin: 0;
   padding: 10px 12px;
   color: var(--color-base);
-  font-weight: 600;
-  opacity: 0.4;
+  font-weight: 300;
+  opacity: 0.85;
 }
 
 .nav-current a,
 .site-head a:hover {
   text-decoration: none;
   opacity: 1;
+  font-weight: 600;
 }
 
 .site-head-center {
@@ -225,7 +224,7 @@ footer.site-foot a {
   display: block;
   margin-top: 2px;
   width: auto;
-  height: 28px;
+  height: 50px;
 }
 
 .site-head-right {
@@ -287,6 +286,9 @@ footer.site-foot a {
   .site-head {
     padding: 0;
   }
+  .site-head-logo img {
+    height: 28px;
+  }
   .nav-burger {
     display: block;
   }
@@ -338,7 +340,7 @@ footer.site-foot a {
   }
   .site-head-center {
     order: 1;
-    position: static;
+    position: absolute;
     z-index: auto;
     display: flex;
     justify-content: center;
@@ -519,12 +521,12 @@ footer.site-foot a {
 /* ---------------------------------------------------------- */
 
 .post-content {
-  max-width: 720px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .contact-form {
-  max-width: 720px;
+  max-width: 1200px;
   margin: 0 auto;
   /* padding: 3vw 0; */
 }

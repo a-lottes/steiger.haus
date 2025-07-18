@@ -194,7 +194,8 @@
     width: 100%;
   }
   .main-headings p {font-size: 1em; bottom:0;}
-  .main-headings h2 {font-size: 1.6em;}
-  .main-headings h1 {font-size: 4em; bottom: 5px;}
+  .main-headings h2 {font-size: 2rem;}
+  .main-headings h1 {font-size: 3rem; bottom: 5px;}
+  .post-content-body h3 {font-size: 2rem; }
   .headText {padding: 30px;}
 }
