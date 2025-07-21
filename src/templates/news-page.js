@@ -22,25 +22,52 @@ const WorkPage = ({ data }) => {
       />
 
       {data.site.siteMetadata.description && (
-        <header className="page-head">
-          <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
-          </h2>
-        </header>
+        <section id="headerContent">
+          <div id="topBackground">
+            <div className="topMain">
+              <div className="row">
+                <div className="col-md-3 logo">
+                </div>
+                <div className="col-md-6 headText">
+                  <div className="specialOffer">
+                    <div className="main-headings">
+                      <h2>{data.site.siteMetadata.title}</h2>
+                      <h1>{data.markdownRemark.frontmatter.title}</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
       )}
-      <div className="post-feed">
-        {posts.map(({ node }) => {
-          postCounter++
-          return (
-            <PostCard
-              key={node.fields.slug}
-              count={postCounter}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
-      </div>
+
+        <article
+          className={`post-content  no-image`}
+        >
+          {data.markdownRemark.frontmatter.description && (
+            <div className="post-content-body">
+            {data.markdownRemark.frontmatter.description}
+            </div>
+          )}
+
+        </article>
+        <section id="featured"> 
+          <div className="row">
+            {posts.map(({ node }) => {
+              postCounter++
+              return (
+                <PostCard
+                  key={node.fields.slug}
+                  count={postCounter}
+                  node={node}
+                  postClass={`post`}
+                />
+              )
+            })}
+          </div>
+        </section>
     </Layout>
   )
 }

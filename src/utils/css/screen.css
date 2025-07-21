@@ -160,8 +160,7 @@ footer.site-foot a {
 
 .site-head-left {
   z-index: 100;
-  display: content;
-  width: -webkit-fill-available;
+  display: contents;
 }
 
 .nav {
