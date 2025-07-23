@@ -21,7 +21,6 @@ const WorkPage = ({ data }) => {
 
       />
 
-      {data.site.siteMetadata.description && (
         <section id="headerContent">
           <div id="topBackground">
             <div className="topMain">
@@ -40,17 +39,11 @@ const WorkPage = ({ data }) => {
             </div>
           </div>
         </section>
-        
-      )}
-
+      
         <article
           className={`post-content  no-image`}
         >
-          {data.markdownRemark.frontmatter.description && (
-            <div className="post-content-body">
-            {data.markdownRemark.frontmatter.description}
-            </div>
-          )}
+    
 
         </article>
         <section id="featured"> 
