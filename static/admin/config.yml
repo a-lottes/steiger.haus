@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -59,9 +59,9 @@ collections:
       #         { label: "Other", value: "other" },
       #       ],
       #   }
-  - name: "work"
-    label: "Work"
-    folder: "src/content/work"
+  - name: "honig"
+    label: "Honig"
+    folder: "src/content/honig"
     create: true
     slug: "{{slug}}"
     fields:
@@ -87,6 +87,7 @@ collections:
           picker_utc: false,
         }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "exhibitions"
