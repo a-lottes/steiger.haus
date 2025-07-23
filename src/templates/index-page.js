@@ -19,7 +19,27 @@ const IndexPage = ({ data }) => {
                 description={data.markdownRemark.frontmatter.description ||  ''}
                 image={data.markdownRemark.frontmatter.thumbnail.childImageSharp.fluid.src}
 
-            />     
+            />  
+
+            <section id="headerContent">
+          <div id="topBackground">
+            <div className="topMain">
+              <div className="row">
+                <div className="col-md-3 logo">
+                </div>
+                <div className="col-md-6 headText">
+                  <div className="specialOffer">
+                    <div className="main-headings">
+                      <h2>{data.site.siteMetadata.title}</h2>
+                      <h1>{data.markdownRemark.frontmatter.heading}</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
              <div className="post-feed">
               <img src="/img/teaser.png" style={{margin: '0px auto'}} />   
             </div>
