@@ -47,6 +47,7 @@ const HonigPage = ({ data }) => {
           )}
 
         </article>
+        
         <section id="featured"> 
           <div className="row">
             <div className="col-md-3"></div>
