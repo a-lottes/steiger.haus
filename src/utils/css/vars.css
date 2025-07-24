@@ -1,9 +1,7 @@
 /* Variables
 /* ---------------------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
-/* @import url('../../../static/font/OldLondon.woff'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 
 :root {
@@ -17,7 +15,7 @@
     /* Old BG--color-bg: #f8f8f8;*/
     
     /* Fonts */
-    --font-sans-serif: 'Montserrat', sans-serif;
+    --font-sans-serif: 'Josefin Sans', sans-serif;
     --font-serif: Georgia, Times, serif;
     --font-mono: Menlo, Courier, monospace;
     --font-light: 100;

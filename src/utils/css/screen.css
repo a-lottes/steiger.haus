@@ -25,7 +25,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   background: var(--color-bg);
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
@@ -49,11 +49,10 @@ body {
 /* Layout
 /* ---------------------------------------------------------- */
 .site-main {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem;
   }
 .site-wrapper {
-  padding: 3vw;
+  padding-top: 3vw;
   min-height: 100vh;
   max-width: 1920px;
   margin-right: auto;
@@ -61,7 +60,7 @@ body {
 }
 @media (max-width: 850px) {
   .site-wrapper {
-    padding: 6vw;
+    padding-top: 6vw;
   }
 }
 
@@ -125,7 +124,7 @@ body {
 }
 
 .site-foot {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 3vw 0 1vw;
   text-align: center;
   color: color(var(--color-border) l(-20%));
@@ -149,6 +148,8 @@ footer.site-foot a {
   margin-top: -10px;
   font-size: 1.35rem;
   padding-bottom: 60px;
+  min-height: 100px;
+  border-bottom: .1rem solid rgba(16,16,16,.08);
 }
 
 .site-head-container {
@@ -205,7 +206,7 @@ footer.site-foot a {
 
 .site-head-logo {
   /*font-family: 'Libre Barcode 39', cursive;*/
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Josefin Sans',sans-serif;
   flex-shrink: 0;
   display: block;
   padding: 10px;
@@ -286,6 +287,7 @@ footer.site-foot a {
 @media (max-width: 850px) {
   .site-head {
     padding: 0;
+    min-height: 80px;
   }
   .site-head-logo img {
     height: 28px;
