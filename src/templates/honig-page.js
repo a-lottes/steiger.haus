@@ -24,9 +24,7 @@ const HonigPage = ({ data }) => {
           <div id="topBackground">
             <div className="topMain">
               <div className="row">
-                <div className="col-md-3 logo">
-                </div>
-                <div className="col-md-6 headText">
+                <div className="col-md-12 headText">
                   <div className="specialOffer">
                     <div className="main-headings">
                       <h2>{data.site.siteMetadata.title}</h2>
