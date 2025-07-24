@@ -578,6 +578,7 @@ footer.site-foot a {
 }
 .post-content-body {
   line-height: 1.65em;
+  font-size: 1rem;
 }
 @media (max-width: 500px) {
   .post-content-body {
